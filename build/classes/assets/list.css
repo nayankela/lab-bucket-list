@@ -1,0 +1,137 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex; background : url('list.svg') no-repeat;
+	width: 100%;
+	background-size: cover;
+	background: url('list.svg') no-repeat;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	
+	color: #000000;
+}
+.form-group{
+	display:flex;
+	
+}
+label {
+	/* NAME */
+	position: absolute;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 80px;
+	/* or 500% */
+	display: flex;
+	align-items: center;
+	color: #000000;
+}
+#name-id{
+	width: 52px;
+	height: 14px;
+	margin-left: 72px;
+	margin-top: 133px;
+}
+#travel-id{
+	width: 288px;
+height: 14px;
+margin-left: 72px;
+margin-top: 252px;
+}
+
+#name {
+	display:flex;
+	position: absolute;
+	width: 366px;
+	height: 50px;
+	margin-left: 72px;
+	margin-top: 160px;
+}
+#destination{
+	position: absolute;
+width: 366px;
+height: 50px;
+margin-left: 72px;
+margin-top: 279px;
+}
+/* RANK */
+
+#rank-id{
+position: absolute;
+width: 288px;
+height: 14px;
+margin-left: 465px;
+margin-top: 252px;
+}
+#rank{
+	
+position: absolute;
+width: 366px;
+height: 50px;
+margin-left: 465px;
+margin-top: 279px;
+	
+}
+
+.button{
+	background:#D2E543;
+position: absolute;
+width: 200px;
+height: 50px;
+margin-left: 875px;
+margin-top: 279px;
+}
+
+.output{
+	position: absolute;
+	width: 392px;
+	height: 30px;
+	padding:26px 0px 0px 21px;
+/* 	margin-left: 98px; */
+/* 	margin-top: 398px; */
+	font-family: Impact;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 80px;
+/* or 333% */
+
+display: flex;
+align-items: center;
+color: #000000;
+}
+.table-bordered{
+		font-family: Impact;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+padding:50px 0px 0px 21px;
+	position:absolute;
+	display:flex;
+	flex-direction:row;
+
+ 	
+	
+	
+}
+.output-border{
+	display:flex;
+	flex-flow:column wrap;
+	position: absolute;
+width: 1293px;
+height: 418px;
+margin-left: 72px;
+margin-top: 377px;
+
+background: #FFFFFF;
+border: 1px solid #E4E4E4;
+box-sizing: border-box;
+}

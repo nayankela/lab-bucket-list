@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:url('home.svg') no-repeat ;
+	width:100%;
+	background-size:cover;
+	
+}
+.main{
+	display:flex;
+	width:100%;
+	background:cover;
+}
+
+
+
+.button-group{
+	display:flex;
+	flex-direction:row;
+	position: absolute;
+	margin-left: 72px;
+	margin-top: 550px;
+	
+	justify-content:center;
+}
+
+.button-group > input{
+	background:#D2E543;
+		width: 141px;
+	height: 51px;
+}
